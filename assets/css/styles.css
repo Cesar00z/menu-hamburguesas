@@ -1,0 +1,108 @@
+:root {
+    --font-color: #FDA727;
+    --font-subtitle: 41px;
+}
+
+body {
+    background-color: #252525;
+}
+
+.contenedor-base {
+    position: relative;
+    width: 1080px;
+    margin: auto;
+}
+
+.burger {
+    background-image: url(../images/burger.png);
+    width: 31%;
+    height: 1910px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bg-madera {
+    background-image: url(../images/bg.png); 
+    background-repeat: no-repeat;
+    width: 69%;
+    height: 1910px;
+    position: absolute;
+    right:0;
+}
+
+.contenedor {
+    width: 540px;
+    margin: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: var(--font-color);
+    font-size: 87px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+header  h3 {
+    color: #fff;
+    font-size: 41px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido h2 {
+    color: var(--font-color);
+    font-size: 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px
+}
+
+h3.tipo {
+    font-size: 41px;
+    font-weight:800;
+    color:#fff;
+    font-size: 2rem;
+}
+
+p.precio {
+    width: 20%;
+    position:relative;
+    top:30px;
+    left:95%;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+p.text {
+    font-size:19px;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin:30px 30px 0 30px;
+    line-height: 1.6;
+}
+
+.text + h2 {
+    margin-top: 150px;
+}
+
+p.text~ h3.bebida{
+    margin-left: 30px;
+}
+
+footer {
+    position: relative;
+    top: 150px;
+    color: #fff;
+    font-size: 19px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
